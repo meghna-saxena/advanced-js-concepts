@@ -1,5 +1,5 @@
 const initialPosition = { x: 0, y: 0 };
-const finalPosition = { x: 0, y: 4 };
+const finalPosition = { x: 3, y: 2 };
 let steps = [];
 
 function getStepsToReachDestination(initialPosition, finalPosition) {
@@ -42,4 +42,4 @@ function getNextStep(initial, final) {
   }
 }
 
-getStepsToReachDestination(initialPosition, finalPosition);
+console.log(getStepsToReachDestination(initialPosition, finalPosition));
